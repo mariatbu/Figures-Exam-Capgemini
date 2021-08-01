@@ -11,7 +11,7 @@ public class Canvas {
         return this.figures;
     }
     public void addFigure(IFigure figure){
-        figures.add(figure);
+        this.figures.add(figure);
         figure.draw();
         //TODO: establecer figure como seleccionada
         Point p = new Point(figure.getRectangle().left, figure.getRectangle().top);
